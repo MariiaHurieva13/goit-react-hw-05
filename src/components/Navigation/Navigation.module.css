@@ -1,0 +1,18 @@
+.navMenu {
+  display: flex;
+
+  gap: 12px;
+  align-items: center;
+  padding: 10px;
+}
+
+.navLink {
+  padding: 12px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  border-radius: 4px;
+}
+
+.navLinkActive {
+  background-color: lightblue;
+}
